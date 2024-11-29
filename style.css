@@ -1,0 +1,96 @@
+/* Center logo for small screens */
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        width: 100%; /* Ensure the logo is centered */
+    }
+  
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+  
+    .collapse {
+        text-align: center; /* Center align menu items */
+    }
+  }
+  
+  .fw-bold{
+    color: orange;
+  }
+  
+  .ft-24{
+    color: orange;
+  }
+  
+  .footer {
+    background-color: #004d00; /* พื้นหลังสีเขียวเข้ม */
+    padding: 20px; /* เพิ่มพื้นที่ด้านใน */
+    border-radius: 8px; /* ทำมุมโค้งเล็กน้อย */
+  }
+  
+  .footer-content {
+    max-width: 800px; /* กำหนดความกว้างสูงสุด */
+    margin: 0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */
+    text-align: left; /* จัดข้อความชิดด้านซ้าย */
+  }
+  
+  .footer-title {
+    font-size: 20px; /* ขนาดฟอนต์ของหัวข้อ */
+    font-weight: bold; /* ทำตัวหนา */
+    color: #ffa500; /* สีส้มสำหรับหัวข้อ */
+    margin-bottom: 15px; /* เพิ่มระยะห่างจากข้อความถัดไป */
+  }
+  
+  .footer-text {
+    font-size: 16px; /* ขนาดฟอนต์ของข้อความทั่วไป */
+    color: #ffffff; /* สีตัวอักษรขาว */
+    margin-bottom: 10px; /* เพิ่มระยะห่างระหว่างบรรทัด */
+  }
+  
+  
+  
+  /* พื้นหลังสีเขียวเข้ม ตัวหนังสือเมนูสีขาว */
+  .navbar {
+    background-color: #004d00; /* สีเขียวเข้ม */
+    padding: 10px 20px; /* เพิ่มระยะ Padding */
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff; /* ตัวหนังสือสีขาว */
+    margin-right: 15px; /* เว้นระยะห่างระหว่างเมนู */
+    font-size: 16px; /* ปรับขนาดตัวอักษร */
+    font-weight: 500; /* ทำให้ตัวอักษรดูชัดเจน */
+    transition: color 0.3s ease; /* เพิ่มการเปลี่ยนสีที่นุ่มนวล */
+  }
+  
+  .navbar .nav-link:hover {
+    color: #b3ffb3; /* สีเขียวอ่อนเมื่อเมาส์ชี้ */
+  }
+  
+  /* ไอคอนขยายเมนูในหน้าจอเล็ก */
+  .navbar-toggler {
+    border-color: #ffffff; /* สีไอคอนเมนู */
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1); /* ไอคอนเป็นสีขาว */
+  }
+  
+  /* ปรับในขนาดหน้าจอเล็ก */
+  @media (max-width: 768px) {
+    .navbar {
+        background-color: #ffffff; /* สีขาวสำหรับหน้าจอเล็ก */
+    }
+    .navbar .nav-link {
+        color: #000000; /* ตัวหนังสือสีดำ */
+        margin-right: 0; /* เอาระยะห่างออก */
+    }
+    .navbar-toggler-icon {
+        filter: invert(0); /* ไอคอนเป็นสีดำ */
+    }
+  }
+  
+  
