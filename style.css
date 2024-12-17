@@ -27,12 +27,12 @@
   
   .footer {
     background-color: #004d00; /* พื้นหลังสีเขียวเข้ม */
-    padding: 20px; /* เพิ่มพื้นที่ด้านใน */
+    padding: 10px; /* เพิ่มพื้นที่ด้านใน */
     border-radius: 8px; /* ทำมุมโค้งเล็กน้อย */
   }
   
   .footer-content {
-    max-width: 800px; /* กำหนดความกว้างสูงสุด */
+    max-width: 600px; /* กำหนดความกว้างสูงสุด */
     margin: 0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */
     text-align: left; /* จัดข้อความชิดด้านซ้าย */
   }
@@ -93,4 +93,7 @@
     }
   }
   
+  .bi-megaphone{
+    color: #ffa500;
+  }
   
