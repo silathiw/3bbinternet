@@ -29,7 +29,7 @@
 
 /* พื้นหลัง Navbar สีดำและตัวหนังสือสีขาว */
 .navbar {
-  background-color: #000; /* พื้นหลังสีดำ */
+  background-color: #fff; /* พื้นหลังสีดำ */
   color: #fff;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .navbar .nav-link {
-  color: #fff; /* ตัวหนังสือสีขาว */
+  color:#f39c12; /* ตัวหนังสือสีขาว */
   font-weight: 500; /* เพิ่มน้ำหนักตัวหนังสือ */
   transition: color 0.3s ease; /* สีเปลี่ยนแบบ smooth */
 }
@@ -61,7 +61,7 @@
   }
   
   .navbar .navbar-collapse {
-      background-color: #000; /* พื้นหลังดำในหน้าจอเล็ก */
+      background-color:#000; /* พื้นหลังดำในหน้าจอเล็ก */
       color: #fff;
   }
   
